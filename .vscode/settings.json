@@ -1,9 +1,12 @@
-  {
+{
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "files.autoSave": "onFocusChange",
     "editor.formatOnSave": true,
     "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": "always"
+        "source.fixAll.eslint": "always"
     },
-    "css.lint.unknownAtRules": "ignore"
-  }
+    "css.lint.unknownAtRules": "ignore",
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    }
+}
